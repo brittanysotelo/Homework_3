@@ -1,0 +1,33 @@
+﻿namespace Week3;
+class Program
+{
+    static void Main(string[] args)
+    {
+    Console.WriteLine("Wrong Letter Grade");
+    string point = Console.ReadLine();
+    int point_int = Convert.ToInt16(point);
+    if(point_int>=4){
+        Console.WriteLine("Letter Grade: A");
+    }
+    else if (point_int>=3){ //3<=point<4
+    Console.WriteLine("Letter Grade: B");
+    }
+    else if (point_int>=2){ //2<=point<3
+    Console.WriteLine("Letter Grade: C");
+    }
+    else if (point_int>=1){ //1<=point<2
+    Console.WriteLine("Letter Grade: D");
+    }
+    else{ // point<1
+    Console.WriteLine("Letter Grade: F");
+    }
+    }
+        }
+    
+    
+
+
+       
+    
+    
+
